@@ -5,4 +5,4 @@ RUN chmod +x .
 RUN apk add --update
 # Tell the image what to do when it starts
 # as a container
-CMD [ "redis-server" ]
+CMD redis-server
